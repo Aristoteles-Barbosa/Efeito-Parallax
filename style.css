@@ -7,6 +7,10 @@
     font-family: sans-serif;   
 
 }
+img{
+    max-width: 100%;
+    display: block;
+}
 .header-container{
     width: 100%;
     padding: 30px 0;
@@ -45,4 +49,16 @@ h1{
 /*estilizando a primeira as sections*/
 section:nth-of-type(1){
     background-image: url(./img/imagem\ 1.jpg);
+}
+/*Estilizando o Flexbox*/
+.flex{
+    display: flex;
+    flex-wrap: wrap;/*dividir em espaços iguais*/
+    max-width: 800px;
+    margin: 0 auto;
+}
+.flex > div{
+    flex: 1 1 200px;/*tamanho das imagens*/
+    margin: 10px;
+
 }
