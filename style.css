@@ -9,7 +9,6 @@
 }
 img{
     max-width: 100%;
-    display: block;
 }
 .header-container{
     width: 100%;
@@ -31,21 +30,23 @@ img{
     margin: 0 50px;
     color: #ffff;
 }
+.sobre{
+    text-align: left;
+    
+}
 section{
     width: 100% 1000px;
     height: 100vh;
     text-align: center;
     padding: 100px 0;    
-    color: rgb(20,20,20);
+    color: #ffff;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
+    background-color: #1e1e2a;    
 }
-h1{
-    margin-bottom: 20px;
-}
+
 /*estilizando a primeira as sections*/
 section:nth-of-type(1){
     background-image: url(./img/imagem\ 1.jpg);
@@ -54,8 +55,9 @@ section:nth-of-type(1){
 .flex{
     display: flex;
     flex-wrap: wrap;/*dividir em espaços iguais*/
-    max-width: 800px;
+    max-width: auto;
     margin: 0 auto;
+    
 }
 .flex > div{
     flex: 1 1 200px;/*tamanho das imagens*/
